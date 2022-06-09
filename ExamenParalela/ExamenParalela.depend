@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1654754652 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"Matriz.h"
+	<sys/time.h>
+
+1654754696 c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\matriz.h
+
+1654752572 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\matriz.cpp
+	"Matriz.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+
