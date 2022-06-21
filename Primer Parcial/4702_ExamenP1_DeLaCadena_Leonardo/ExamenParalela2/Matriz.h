@@ -20,6 +20,6 @@ public:
 	T** getMatriz();
 
 	Matriz<T> procesar(Matriz<T> );
-	Matriz<T> procesarParalelo(Matriz<T> );
+	Matriz<T> procesarParalelo(Matriz<T>);
 
 };

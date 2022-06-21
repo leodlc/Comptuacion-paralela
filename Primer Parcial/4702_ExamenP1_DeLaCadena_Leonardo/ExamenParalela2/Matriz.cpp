@@ -137,27 +137,32 @@ Matriz<T> Matriz<T>::procesar(Matriz<T> matrizTmp)
 template<class T>
 Matriz<T> Matriz<T>::procesarParalelo(Matriz<T> matrizTmp)
 {
+
+
     Matriz<T> mr(d);
+    int p=8;
     #pragma omp parallel
     {
 
-
-        int p=4;
         mr.segmentar();
         T** res = mr.getMatriz();
         T** mtemp = matrizTmp.getMatriz();
         int first = omp_get_thread_num()*d/p;
         int last = first + d/p;
-        for (int i = 0; i < d; i++) {
+
+        for (int i = first; i < last; i++) {
             for (int j = 0; j < d; j++) {
                 for (int h = 0; h < d; h++) {
                     *(*(res + i) + j) = *(*(res + i) + j) + (*(*(mat + i) + h)) * (*(*(mtemp + h) + j));
+
                 }
             }
         }
-
     }
-    return mr;
+
+
+
+
 }
 
 

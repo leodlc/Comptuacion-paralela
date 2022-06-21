@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1654754652 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"Matriz.h"
+	<sys/time.h>
+
+1654754696 c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\matriz.h
+
+1654752572 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\examenparalela\matriz.cpp
+	"Matriz.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+
+1654799566 source:c:\users\labs-dcco\downloads\comptuacion-paralela-main\comptuacion-paralela-main\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"Matriz.h"
+	<sys/time.h>
+
+1654799438 c:\users\labs-dcco\downloads\comptuacion-paralela-main\comptuacion-paralela-main\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela\matriz.h
+
+1654799407 source:c:\users\labs-dcco\downloads\comptuacion-paralela-main\comptuacion-paralela-main\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela\matriz.cpp
+	"Matriz.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<omp.h>
+
+1654820591 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\repositorio\comptuacion-paralela\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela2\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"Matriz.h"
+	<inttypes.h>
+	<sys/time.h>
+	<bits/stdc++.h>
+	<chrono>
+
+1654813487 c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\repositorio\comptuacion-paralela\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela2\matriz.h
+
+1654829478 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\repositorio\comptuacion-paralela\primer parcial\4702_examenp1_delacadena_leonardo\examenparalela2\matriz.cpp
+	"Matriz.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<omp.h>
+
