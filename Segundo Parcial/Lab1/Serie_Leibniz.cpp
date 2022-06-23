@@ -20,7 +20,7 @@ int main(){
 
         }
         esIndicePar = !esIndicePar;
-        printf("La respuesta es: %8f\n", respuesta);
+        //printf("La respuesta es: %8f\n", respuesta);
     }
     cout<<"La respuesta es: "<<respuesta<<endl;
     return 0;

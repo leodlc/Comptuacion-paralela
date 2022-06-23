@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1656009126 source:c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\tiempoleibniz\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1656009098 c:\users\asrock\documents\semestre mayo-sep 2022\computacion paralela\examen\tiempoleibniz\funciones.h
+	<stdio.h>
+	<iostream>
+	<omp.h>
+	<sys/time.h>
+

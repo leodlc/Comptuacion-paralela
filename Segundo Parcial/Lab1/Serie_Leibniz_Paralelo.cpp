@@ -23,7 +23,7 @@ int main(){
             }else{
                 SumParciales[idHilo] -= 4.0 / (2.0 * indice + 1.0);
             }
-            printf("Hilo %d %.8f\n", idHilo,SumParciales[idHilo]);
+            //printf("Hilo %d %.8f\n", idHilo,SumParciales[idHilo]);
         }
     }
     for(long indice1=0;indice1<numHilos;indice1++){
